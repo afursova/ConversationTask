@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FB2C3E12C4ADC6C005F8BF5 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2C3E02C4ADC6C005F8BF5 /* Character.swift */; };
+		1FB2C3E32C4ADC88005F8BF5 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FB2C3E22C4ADC88005F8BF5 /* APIService.swift */; };
 		1FE1CCFD2C4ADA9500EE5C18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1CCFC2C4ADA9500EE5C18 /* AppDelegate.swift */; };
 		1FE1CCFF2C4ADA9500EE5C18 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1CCFE2C4ADA9500EE5C18 /* SceneDelegate.swift */; };
 		1FE1CD012C4ADA9500EE5C18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE1CD002C4ADA9500EE5C18 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1FB2C3E02C4ADC6C005F8BF5 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		1FB2C3E22C4ADC88005F8BF5 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		1FE1CCF92C4ADA9500EE5C18 /* ConversationTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConversationTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE1CCFC2C4ADA9500EE5C18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FE1CCFE2C4ADA9500EE5C18 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -59,6 +63,8 @@
 				1FE1CCFC2C4ADA9500EE5C18 /* AppDelegate.swift */,
 				1FE1CCFE2C4ADA9500EE5C18 /* SceneDelegate.swift */,
 				1FE1CD002C4ADA9500EE5C18 /* ViewController.swift */,
+				1FB2C3E02C4ADC6C005F8BF5 /* Character.swift */,
+				1FB2C3E22C4ADC88005F8BF5 /* APIService.swift */,
 				1FE1CD022C4ADA9500EE5C18 /* Main.storyboard */,
 				1FE1CD052C4ADA9600EE5C18 /* Assets.xcassets */,
 				1FE1CD072C4ADA9600EE5C18 /* LaunchScreen.storyboard */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE1CD012C4ADA9500EE5C18 /* ViewController.swift in Sources */,
+				1FB2C3E32C4ADC88005F8BF5 /* APIService.swift in Sources */,
 				1FE1CCFD2C4ADA9500EE5C18 /* AppDelegate.swift in Sources */,
 				1FE1CCFF2C4ADA9500EE5C18 /* SceneDelegate.swift in Sources */,
+				1FB2C3E12C4ADC6C005F8BF5 /* Character.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
